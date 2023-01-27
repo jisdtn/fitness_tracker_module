@@ -1,6 +1,3 @@
-from typing import List
-
-
 class InfoMessage:
     """Информационное сообщение о тренировке."""
     def __init__(self,
@@ -153,7 +150,7 @@ class Swimming(Training):
         return result
 
 
-def read_package(workout_type: str, data: List[int]) -> Training:
+def read_package(workout_type: str, data: list) -> Training:
     """Прочитать данные полученные от датчиков."""
 
     WORKOUT_TYPES: dict = {
