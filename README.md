@@ -35,16 +35,12 @@ source venv/bin/activate
 Установить зависимости из файла requirements.txt:
 
 ```
-cd backend
-```
-
-```
 python3 -m pip install --upgrade pip
 ```
 
 ```
 pip install -r requirements.txt
-
+```
 
 В корневой директории выполнить команду:
 
